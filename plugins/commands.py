@@ -17,7 +17,7 @@ import datetime
 import os
 import random
 import logging
-from sinhala import *
+from telugu import *
 from english import *
 from pyrogram.errors.exceptions.bad_request_400 import *
 from pyrogram.errors import *
@@ -88,7 +88,7 @@ async def help(bot, message):
 DATABASE_URI=DATABASE_URI
 database = Database(DATABASE_URI, "epic_bot") 
     
-#•Epic Bots 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
+#•Harshith 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
 #State chek
 
 @Client.on_message(filters.command("state") & filters.user(ADMINS))   
@@ -101,11 +101,11 @@ async def startprivate(bot, message):
 **Members Count In Bot & Chane**
 ╔═════════════════════════════════════════════╗
    **🌱Chanel Members**  🏅`{count}`
-   **⚡Epic App Store Bot Users**  🏅`{countb}`
+   **⚡MB Our BoT Users**  🏅`{countb}`
 ╚═════════════════════════════════════════════╝
 """
     await bot.send_sticker(message.chat.id, random.choice(STAT_STICKER))
     await bot.send_message(message.chat.id, text=text)
 
-#=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•Epic Bots 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
+#=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•Harshith 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
 print("Commands.py Started🔥🌹")
