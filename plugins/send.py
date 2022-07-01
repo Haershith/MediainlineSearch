@@ -17,7 +17,7 @@ import datetime
 import os
 import random
 import logging
-from sinhala import *
+from telugu import *
 from english import *
 from pyrogram.errors.exceptions.bad_request_400 import *
 from pyrogram.errors import *
