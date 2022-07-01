@@ -17,7 +17,7 @@ import datetime
 import os
 import random
 import logging
-from sinhala import *
+from telugu import *
 from english import *
 from pyrogram.errors.exceptions.bad_request_400 import *
 from pyrogram.errors import *
@@ -35,14 +35,14 @@ from info import START_MSG, CHANNELS, ADMINS, INVITE_MSG, DATABASE_URI, PRIVATE_
 from utils import Media, unpack_new_file_id
 
 
-#=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•Epic Bots 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
+#=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=Harshith 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
 #Callbacks
 
 @Client.on_callback_query()  
 async def tgm(bot, update):  
     if update.data == "add": 
         await update.answer(
-             text="Epic Devs",
+             text="Harshith Devs",
         )
     elif update.data == "START_EN":
          await update.message.edit_text(
@@ -51,7 +51,7 @@ async def tgm(bot, update):
              disable_web_page_preview=True
          )
          await update.answer(
-             text="Bot Started In English 🇬🇧",
+             text="Bot Started In English",
          )  
     elif update.data == "HELP_CLB":
          await update.message.edit_text(
@@ -75,9 +75,9 @@ async def tgm(bot, update):
              reply_markup=DEVS_BTN
          )
          await update.answer(
-             text="</ᴇᴘɪᴄ ʙᴏᴛs <s/ʟ>🇱🇰"
+             text="Mutyala Harshith"
          )
-    elif update.data == "SI_CHANGE":
+    elif update.data == "TE_CHANGE":
          await update.message.edit_text(
              text=STARTCMD,
              reply_markup=COMMAND_LANGBTN
@@ -85,45 +85,45 @@ async def tgm(bot, update):
          await update.answer(
              text="Switch Language 🔄"
          )
-    elif update.data == "START_SI":
+    elif update.data == "START_TE":
          await update.message.edit_text(
-             text=SI_STARTM,
-             reply_markup=SI_STARB
+             text=TE_STARTM,
+             reply_markup=TE_STARB
          )
          await update.answer(
-             text="ස:අපිට අපි ස:ට😏"
+             text="స:మేముట మేము స:ట😏"
          )
-    elif update.data == "SIHELP_CLB":
+    elif update.data == "TEHELP_CLB":
          await update.message.edit_text(
-             text=SIHELP_MSG,
-             reply_markup=SIHelp_backbtn
+             text=TEHELP_MSG,
+             reply_markup=TEHelp_backbtn
          )
          await update.answer(
-             text="ආයි බොක්කෙන්ම ඈ මේ උදව්ව"
+             text="అయి బొక్కగానే ఈ సహాయం"
          )
-    elif update.data == "SIHELP_BACK":
+    elif update.data == "TEHELP_BACK":
          await update.message.edit_text(
-             text=SI_STARTM,
-             reply_markup=SI_STARB
+             text=TE_STARTM,
+             reply_markup=TE_STARB
          )
          await update.answer(
-             text="මේ සැප ලෝකේ 🤭"
+             text="ఈ సుఖ ప్రపంచే 🤭"
          )
-    elif update.data == "Si_Devs":
+    elif update.data == "TE_Devs":
          await update.message.edit_text(
-             text=DEVS_MGSI,
-             reply_markup=DEVS_BTNSI
+             text=DEVS_MGTE,
+             reply_markup=DEVS_BTNTE
          )
          await update.answer(
-             text="ගැම්මක් තමයි හරිත😌"
+             text="గామ్మెక్ అంటే గ్రీన్😌"
          )
-    elif update.data == "SiDEVS_BAC":
+    elif update.data == "TEDEVS_BAC":
          await update.message.edit_text(
-             text=SI_STARTM,
-             reply_markup=SI_STARB
+             text=TE_STARTM,
+             reply_markup=TE_STARB
          )
          await update.answer(
-             text="මේ සැප ලෝකේ 🤭"
+             text="ఈ సుఖ ప్రపంచే 🤭"
          )
     elif update.data == "CHANGE_LNG":
          await update.message.edit_text(
@@ -131,7 +131,7 @@ async def tgm(bot, update):
              reply_markup=COMMAND_LANGBTN
          )
          await update.answer(
-             text="මේ සැප ලෝකේ 🤭"
+             text="ఈ సుఖ ప్రపంచే 🤭"
          )
     elif update.data == "back_Clbs":
          await update.message.edit_text(
