@@ -17,7 +17,7 @@ import datetime
 import os
 import random
 import logging
-from sinhala import *
+from telugu import *
 from english import *
 from pyrogram.errors.exceptions.bad_request_400 import *
 from pyrogram.errors import *
@@ -77,12 +77,12 @@ async def pm_sticker(bot, message):
     )
     await bot.send_message(LOG_CHANNEL, text=PM_TXT_ATTS.format(reference_id, info.first_name))
     
-#=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•Epic Bots 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
+#=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•Harshith 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
 USER_DETAILS = "<b>PM FROM:</b>\nName: {} {}\nId: {}\nUname: @{}\nScam: {}\nRestricted: {}\nStatus: {}\nDc Id: {}"
 PM_TXT_ATT = "<b>Message from:</b> {}\n<b>Name:</b> {}\n\n{}"
 PM_TXT_ATTS = "<b>Message from:</b> {}\n<b>Name:</b> {}"
 PM_MED_ATT = "<b>Message from:</b> {} \n<b>Name:</b> {}\n<b>Caption</b>:{}"
 LOG_CHANNEL = "-1001741009206"
-#=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•Epic Bots 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
+#=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•Harshith 2022© All Rights Resived•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=•=#
 print("Pm Working")
 print("pm Started Success ☄️")
