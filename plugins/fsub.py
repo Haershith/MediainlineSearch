@@ -22,6 +22,6 @@ async def forcesub(bot, update):
 FORCESUB_TEXT = "WTF Join Our Chanel humm 😒.."
 
 FORCESUB_BUTTONS = InlineKeyboardMarkup([[
-                InlineKeyboardButton('Join Channel☄️', url='https://t.me/EpicBotsSl')
+                InlineKeyboardButton('Join Channel☄️', url='https://t.me/MutyalaHarshith')
             ]])
 print("fsub Working")
