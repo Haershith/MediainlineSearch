@@ -12,16 +12,16 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/EpicBotSl/AppStoreBot",
-    "repository": "https://github.com/EpicBotSl/AppStoreBot",
+    "website": "https://github.com/Mega-Hero/MediainlineSearch",
+    "repository": "https://github.com/Mega-Hero/MediainlineSearch",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "value": "5455142286:AAEgWO-mJDVtwu9fWFPNAqIK2qsOze8KZnk"
+            "value": "5451602515:AAFQzazQ7sokENUYoHOKUj6C0zph1Na_pHo"
         },
         "USERBOT_STRING_SESSION": {
             "description": "User bot string session.",
-            "value": "",
+            "value": "BQAnWwUNZTu0UuA2Yjx9tLVLvBNG_n8RoTmX8vx2FCpYiEzq61L0EIUu13qXWvJMNdv28d8acEaJ6CrJGKRnKEpqQhmj19TiJlD9-H4mCOF6QrO4Mh_C8oU67k0n9LF2El81Gu5nuDcB8S_AMd5f_7ynoffWOMJpwsGByZVQZKTQteIJCaJOF2Yl-2B_b47vTINE1wSrKaiyW2Ge0_inlxGRH3ffR12ajnWGH602_S1iR6WMeORvZUCLOjqWCKWg3-WrzOvS5bzWgb9PnEoS9Hab9-I7blIljRhQlcb9VaqT8cjblRHHab4nXpPoPNptv0-ve0CXWj5TqJd5UiUQD1OOfk6uxgA",
             "required": false
         },
         "API_ID": {
@@ -34,15 +34,15 @@
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "value": "-1001645328504"
+            "value": "-1001556528201"
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": "5196689118"
+            "value": "2119085766"
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
-            "value": "5196689118",
+            "value": "2119085766",
             "required": false
         },
         "PRIVATE_LOG": {
@@ -52,7 +52,7 @@
         },
         "OWNER_ID": {
             "description": "Your Id",
-            "value": ""
+            "value": "2119085766"
         },
         "LOG_CHANNEL": {
             "description": "Private Log Chanel Id Create New Group & Get Id",
@@ -65,12 +65,12 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm Media Search bot**\n\nHere you can search files in inline mode. Just press following buttons and start searching.",
+            "value": "**Hi, I'm Harshith Media Search bot**\n\nHere you can search files in inline mode. Just press following buttons and start searching.",
             "required": false
         },
         "INVITE_MSG": {
             "description": "Auth channel invitation message",
-            "value": "Please join @.... to use this bot",
+            "value": "Please join @MutyalaHarshith to use this bot",
             "required": false
         },
         "USE_CAPTION_FILTER": {
