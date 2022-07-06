@@ -10,54 +10,55 @@ from pyrogram.types import *
 #Buttons & Msgs
 
 DEVS_BTN = InlineKeyboardMarkup([[
-                 InlineKeyboardButton('Harshith', url='https://t.me/MutyalaHarshith'),
-                 InlineKeyboardButton('MHgcHat', url='https://t.me/MHgchat')
+                 InlineKeyboardButton('💞 Harshith', url='https://t.me/MutyalaHarshith'),
+                 InlineKeyboardButton('🥳 MHgcHat', url='https://t.me/MHgchat')
                  ],
                  [
-                 InlineKeyboardButton('🔙', callback_data="back_Clbs")
+                 InlineKeyboardButton('👋 Back', callback_data="back_Clbs")
                  ]]
                   )
 
-DEVS_MG = "🌱We Are epic Developers 🌟"
+DEVS_MG = "✨ Hai Iam Mutyala Harshith 💞"
 
 helps_msg = """
 ⸙𝚃𝚑𝚒𝚜 𝙸𝚜 MH 𝙱𝚘𝚝𝚜 𝙷𝚎𝚕𝚙 𝚂𝚎𝚌𝚝𝚒𝚘𝚗!
 How to Use me 
 Ex:- `Radhe Shyam`
-😂Yes It Simple Normally Send App No to bot 
+😂Yes It Simple Normally Movie Search bot 
 
 """
 
 HelpBack_Btn = InlineKeyboardMarkup([[
-                InlineKeyboardButton('🔙', callback_data="HELP_BACK")
+                InlineKeyboardButton('👋 BacK', callback_data="HELP_BACK")
             ]])
 
 ENSTART_BTN = InlineKeyboardMarkup([[
-                InlineKeyboardButton('🆘HELP🆘', callback_data="HELP_CLB")
+                InlineKeyboardButton('😜 Help', callback_data="HELP_CLB")
             ],
             [
-                InlineKeyboardButton('Harshith', url='https://t.me/MutyalaHarshith'),
-                InlineKeyboardButton('👩‍💻Bot Devs👩‍💻', callback_data="DevsCallback")
+                InlineKeyboardButton('💞 Harshith', url='https://t.me/MutyalaHarshith'),
+                InlineKeyboardButton('🤩 Develovepers', callback_data="DevsCallback")
             ],
             [
-                InlineKeyboardButton('MHGCHAT', url='https://t.me/MHGcHaT')
+                InlineKeyboardButton('💞 MHGcHaT', url='https://t.me/MHGcHaT')
             ],
             [
-                InlineKeyboardButton('🔍Search here🔄', switch_inline_query_current_chat=''),
-                InlineKeyboardButton('↗️Go inline↗️', switch_inline_query='')
+                InlineKeyboardButton('🔍Search here🔄
+', switch_inline_query_current_chat=''),
+                InlineKeyboardButton('💡 Go inline', switch_inline_query='')
             ],
             [ 
-                InlineKeyboardButton('🔄 Switch Language', callback_data="TE_CHANGE")
+                InlineKeyboardButton('😘 Change Language', callback_data="TE_CHANGE")
             ]
         ])
 
 ENSTART_MSG = "Hi Welcome to **Harshith Media Search Bot**🎭 ✓Click Help To more Helps⚡"
 
-STAT_STICKER = ["CAACAgQAAxkBAAEFHRditZFgRBAPm-9bkFJUQKOjSEgxoQACfwsAAmgpeVF2roP_0GLhzykE",
-                "CAACAgQAAxkBAAEFHRVitZFYQ_EPOF7Y1GenAAHZOfu6xNIAAj4MAAKd3llQRh5-qJlCwa0pBA",
-                "CAACAgQAAxkBAAEFHRNitZFVEBwdq0uFJDOvDRx2IzdoCwAC5wwAAubdSFEk6BkQ4EbQ1ikE",
-                "CAACAgQAAxkBAAEFHRFitZFRwzQPYrVUQkxVP4yxF2Uw3gAC4AkAAu9GYFGTgHavjO_HLikE",
-                "CAACAgQAAxkBAAEFHQ9itZFNixLf7fEZICaK8DF-Li967wACUAwAAmEq4VF8xFsUvkvQXSkE"              
+STAT_STICKER = ["CAACAgUAAxkBAAIaoGLFAh4HC8weC0J4x1c3HAVnoxSsAAJLBQACk63ZVTl1b7fDo-OpHgQ",
+                "CAACAgUAAxkBAAIapGLFAlREvYMW3VfKH7VwhIBeaafMAAIvBQACaXfYVQXRbSbmknymHgQ",
+                "CAACAgUAAxkBAAIanWLFAhD1jogzet85akKM_JwwhWnkAAJyBwACJrrZVf2J1QcUBqdVHgQ",
+                "CAACAgUAAxkBAAIammLFAfvd9RBuotbZunrvn1lIU8kLAAIhBgAC3ZD5V8DbuSeu9KvqHgQ",
+                "CAACAgUAAxkBAAIal2LFAeiA5Hb6vW9dBlgQmx_UVpT0AAI9AwAClKrpVqYLvURyUjbVHgQ"              
          ]  
 
 CLOSE_BUTTON = InlineKeyboardMarkup([[
